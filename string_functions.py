@@ -32,9 +32,7 @@ def capitalize(string):
     if not isinstance(string, str):
         raise TypeError("input should be of type string")
     else:
-        if result:
+        if not result:
             result += to_upper(string[0])
         result += to_lower(string[1:])
-
-    print("here",result)
     return result

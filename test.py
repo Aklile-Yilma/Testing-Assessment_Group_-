@@ -11,7 +11,6 @@ class TestToUpper(unittest.TestCase):
         with self.assertRaises(TypeError):
             to_upper(test_string)
             
-        # self.assertRaises(TypeError, to_upper(test_string))
     
 class TestToLower(unittest.TestCase):
     # Write you code here
@@ -22,7 +21,6 @@ class TestToLower(unittest.TestCase):
         test_string = 1
         with self.assertRaises(TypeError):
             to_lower(test_string)
-        # self.assertRaises(TypeError, to_lower(test_string))
     
 class TestCapitalize(unittest.TestCase):
     # Write your code here
@@ -33,7 +31,6 @@ class TestCapitalize(unittest.TestCase):
         test_string = 1
         with self.assertRaises(TypeError):
             to_lower(test_string)
-        # self.assertRaises(TypeError, to_lower(test_string))
     
 
 if __name__ == '__main__':
